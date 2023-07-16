@@ -1,7 +1,9 @@
 mod errors;
 mod plugin;
 mod plugin_manager;
-mod request_response_plugin;
 
 #[macro_use]
 extern crate error_chain;
+
+pub use plugin::Plugin;
+pub use plugin_manager::PluginManager;
