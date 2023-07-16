@@ -1,0 +1,12 @@
+[package]
+name = "plugin_framework"
+version = "0.1.0"
+edition = "2021"
+authors = ["Krishna Addepalli <coolkrishna31@gmail.com>"]
+description = "A simple Rust based plugin framwork"
+repository = "https://gihub.com/Srikrishna31/rust_ffi_example"
+
+[dependencies]
+libloading = "0.8.0"
+error-chain = "0.12.4"
+log = "0.4.19"
